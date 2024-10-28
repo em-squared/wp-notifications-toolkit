@@ -1,0 +1,16 @@
+{
+    "name": "notifications-toolkit",
+    "version": "1.0.0",
+    "description": "A WordPress plugin that adds hooks for frontend notifications.",
+    "main": "notifications-toolkit.php",
+    "scripts": {
+      "build:css": "sass assets/notifications.scss dist/notifications.css",
+      "watch:css": "sass --watch assets/notifications.scss dist/notifications.css"
+    },
+    "author": "Maxime Moraine",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+      "sass": "^1.56.0"
+    }
+  }
+  
